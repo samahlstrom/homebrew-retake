@@ -1,29 +1,29 @@
-# Retake 0.1.0. Written by scripts/brew-formula.sh in samahlstrom/retake; the release workflow replaces it on every release.
+# Retake 0.2.2. Written by scripts/brew-formula.sh in samahlstrom/retake; the release workflow replaces it on every release.
 class Retake < Formula
   desc "Review videos by talking over them; your AI agent makes the next version"
   homepage "https://github.com/samahlstrom/retake"
-  version "0.1.0"
+  version "0.2.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/samahlstrom/retake/releases/download/v0.1.0/retake_0.1.0_darwin_arm64.tar.gz"
-      sha256 "52815ebf81440a4e7da1d8d65e7a8f77d0f20bf2662cebd01e44e1967d2d098f"
+      url "https://github.com/samahlstrom/retake/releases/download/v0.2.2/retake_0.2.2_darwin_arm64.tar.gz"
+      sha256 "61a41e7d95e73baf4be3a4f6b2290c645aaef3659fc189b1801620231a39a6e9"
     end
     on_intel do
-      url "https://github.com/samahlstrom/retake/releases/download/v0.1.0/retake_0.1.0_darwin_amd64.tar.gz"
-      sha256 "c587ef58a72c90fe83488f84deac21283bdccaeb34177667189b75b593f78afd"
+      url "https://github.com/samahlstrom/retake/releases/download/v0.2.2/retake_0.2.2_darwin_amd64.tar.gz"
+      sha256 "17edaf1d7e9b542bd6af1259c20fb64043535b4b35259bfafc70ddf4774ee457"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/samahlstrom/retake/releases/download/v0.1.0/retake_0.1.0_linux_arm64.tar.gz"
-      sha256 "a5e2a93a0f077e71e4adb32aa854277f76e0e976a8f00d5f2657cdb73c278faa"
+      url "https://github.com/samahlstrom/retake/releases/download/v0.2.2/retake_0.2.2_linux_arm64.tar.gz"
+      sha256 "2480a6824ef56729b3e79892f6f183fbc18fa55d0a85b8d1f5c69273e1bf6044"
     end
     on_intel do
-      url "https://github.com/samahlstrom/retake/releases/download/v0.1.0/retake_0.1.0_linux_amd64.tar.gz"
-      sha256 "0ec995b73f7645311e72d73bdf1747a55ae1304ba03fe73af1e2c6c505524776"
+      url "https://github.com/samahlstrom/retake/releases/download/v0.2.2/retake_0.2.2_linux_amd64.tar.gz"
+      sha256 "80049312dbe4f41d3ea90912a161e6e51c52fc8756cc77946cbfcaa180c09553"
     end
   end
 
